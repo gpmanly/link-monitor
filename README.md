@@ -1,10 +1,11 @@
-Compile and run:
-
-  gcc -O2 -o linkmon linkmon.c
+## Compile and run:
+```shell
+  gcc -o linkmon linkmon.c
   sudo ./linkmon eth0
+```
 
-  Sample output
-
+## Sample output
+```
   Monitoring eth0 for link events (Ctrl+C to stop)...
 
   === LINK DOWN at 14:32:15.482913 ===
@@ -26,3 +27,4 @@ Compile and run:
     Reg 17 (MODE_STS): 0x0002
     Reg 29 (INT_SRC ): 0x0040  [ANcmpl ]
     Reg 31 (SPECIAL ): 0x0014  [Speed:10F]
+```
